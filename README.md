@@ -10,6 +10,7 @@ The purpose of this challenge was to assess the creditworthiness of borrowers.  
 * derogatory marks
 * total debt
 * loan status  
+
 To fulfill the aim of this task, two logistic regression models were built to use the data above to predict the loan status of each individual.  In order to build the models and complete the challenge, the process was split into the following stages for each model:
 
 * Model 1: Original Data
