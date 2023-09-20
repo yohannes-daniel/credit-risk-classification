@@ -26,9 +26,9 @@ To fulfill the aim of this task, two logistic regression models were built to us
     3. Gather the results
         1. Imported the accuracy score, confusion matrix, and classification report modules and used them to gather their respective values.
 
-* Model 2: Resampled Train Data
-    1. Resample the train data
-    2. 
+* Model 2: Resampled Training Data
+    1. Resample the training data from model 1.
+    2. Repeat steps ii. and iii. from model 1 and use the resampled training data for ii. b.
 
 
 ## Results
