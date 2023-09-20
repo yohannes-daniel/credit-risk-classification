@@ -52,4 +52,4 @@ To fulfill the aim of this task, two logistic regression models were built to us
         * Recall: 1.00 (100%)
 
 ## Summary
-Both logistic regression models have shown that they are not suitable in predicting both healthy loan and high-risk loan labels.  Both models
+Both logistic regression models have shown that they are not suitable in predicting both healthy loan and high-risk loan labels.  Both models were very good at predicting healthy loans as they have 100% in both precision and recall with the only difference being that model 1 had 99% accuracy while model 2 had 100% accuracy.  The issue comes from their respective values for high-risk loans.  The bar of acceptance for the model to be useful was at least 90% for both precision and recall due to the importance of correctly predicting who are and aren't credit risks.  Both models have at least one trait below 90% (model 1 having 2 and model 2 having 1) which is not acceptable in the case of this topic.  In conclusion, although model 2 is the superior, both of these models are not fit to be used in practice.
