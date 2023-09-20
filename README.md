@@ -24,7 +24,7 @@ To fulfill the aim of this task, two logistic regression models were built to us
         2. Then the model was fit using the training data.
         3. The predictions were made using the test data.
     3. Gather the results
-        1. Used the 
+        1. Imported the accuracy score, confusion matrix, and classification report modules and used them to gather their respective values.
 
 * Model 2: Resampled Train Data
     1. Resample the train data
@@ -48,7 +48,8 @@ To fulfill the aim of this task, two logistic regression models were built to us
         * Recall: 1.00 (100%)
     * High-Risk Loan (1)
         * Accuracy: 1.00 (100%)
-        * Precision: 1.00 (89%)
+        * Precision: 0.87 (87%)
+        * Recall: 1.00 (100%)
 
 ## Summary
-The logistic regression model (using the original data) has shown to be not suitable in predicting both healthy loan and high-risk loan labels.  The healthy loans have a 100% in both precision and recall while the high-risk loans has 87% in precision and 89% in recall.  With credit risk as the topic for analysis, both labels should have at least a 90% in precision since precision is a more important trait in assessing risk.  Due to high-risk loans having a precision slightly below the requirement, the logistic regression model is just barely not suitable in its predictions.
+Both logistic regression models have shown that they are not suitable in predicting both healthy loan and high-risk loan labels.  Both models
